@@ -1,0 +1,62 @@
+body, html{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+}
+*{
+    box-sizing: border-box;
+}
+
+header{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    position: relative;
+    z-index: 5;
+}
+#stories{
+    width: 100%;
+    margin: 0;
+    background-color: #E5E5E5;
+}
+
+.mission, .container{
+    width: 90%;
+    margin-left: 4rem;
+}
+
+.mission{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.container{
+    width:
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.options{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.option-right{
+    display: flex;
+    
+}
